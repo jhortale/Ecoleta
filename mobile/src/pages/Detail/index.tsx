@@ -4,13 +4,11 @@ import {
     StyleSheet,
     TouchableOpacity,
     Text,
-    ScrollView,
     Image,
     SafeAreaView,
     Linking,
 } from "react-native";
 import { Feather as Icon, FontAwesome } from "@expo/vector-icons";
-import { SvgUri } from "react-native-svg";
 import { useNavigation, useRoute } from "@react-navigation/native";
 import { RectButton } from "react-native-gesture-handler";
 import * as MailComposer from "expo-mail-composer";
